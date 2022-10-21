@@ -32,7 +32,7 @@ int main() {
         userYear = std::stoi(userYearString);
     } catch (std::invalid_argument) {
         std::cout << "Please enter a valid number. ";
-        std::cout << userYear;
+        std::cout << userYearString;
         std::cout << " is not valid.\n";
     }
 
